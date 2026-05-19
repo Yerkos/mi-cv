@@ -1,5 +1,4 @@
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="container">
@@ -7,24 +6,49 @@
       <span class="about-subtitle">ABOUT ME</span>
       <div class="section-container-header">
         <h1>Aitor Ramirez</h1>
-        <span class="about-subtitle-main">Frontend Developer · Las Palmas de Gran Canaria</span>
+        <span class="about-subtitle-main"
+          >Frontend Developer · Las Palmas de Gran Canaria</span
+        >
 
         <nav class="section-container-nav">
-          <a class="section-container-nav-icons" href="mailto:aitor_rg1993@hotmail.com">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <a
+            class="section-container-nav-icons"
+            href="mailto:aitor_rg1993@hotmail.com"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <rect x="3" y="5" width="18" height="14" rx="2"></rect>
               <polyline points="3 7 12 13 21 7"></polyline>
             </svg>
             aitor_rg1993@hotmail.com
           </a>
-          <a class="section-container-nav-icons" href="https://aitor.dev" target="_blank">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-              stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <a
+            class="section-container-nav-icons"
+            href="https://aitor.dev"
+            target="_blank"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
               <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
               <circle cx="12" cy="12" r="9"></circle>
-              <path d="M3.6 9h16.8M3.6 15h16.8M11.5 3a17 17 0 0 0 0 18M12.5 3a17 17 0 0 1 0 18"></path>
+              <path
+                d="M3.6 9h16.8M3.6 15h16.8M11.5 3a17 17 0 0 0 0 18M12.5 3a17 17 0 0 1 0 18"
+              ></path>
             </svg>
             aitor.dev
           </a>
@@ -48,10 +72,9 @@
         <span>2025 - 2026</span>
       </div>
 
-
-
       <a href="https://www.planimatik.com/" target="_blank">
-        Planimatik - Remote</a>
+        Planimatik - Remote</a
+      >
       <div class="section-exp-info">
         <ul>
           <li>
@@ -67,17 +90,19 @@
       </div>
 
       <a href="https://www.singularfactory.com/" target="_blank">
-        The singular factory - Remote</a>
+        The singular factory - Remote</a
+      >
 
       <div class="section-exp-info">
         <ul>
           <li>
-            Contributed to the development of a frontend application Planimatik from scratch,
-            participating in architecture decisions and implementation.
+            Contributed to the development of a frontend application Planimatik
+            from scratch, participating in architecture decisions and
+            implementation.
           </li>
           <li>
-            Contributed to the Cargobot project by designing and implementing new frontend sections
-            and features based on client requirements.
+            Contributed to the Cargobot project by designing and implementing
+            new frontend sections and features based on client requirements.
           </li>
         </ul>
       </div>
@@ -89,34 +114,52 @@
       <div class="projects-grid">
         <div class="section-project-card-container">
           <div class="section-project-card-container-title">
-            <h3>AppleTrack</h3>
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <h3>Web Page</h3>
+            <a href="https://github.com/Yerkos/mi-cv" target="_blank" rel="noopener noreferrer">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M12 6h-6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6m-7 1l9-9m-5 0h5v5"></path>
+                <path
+                  d="M12 6h-6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6m-7 1l9-9m-5 0h5v5"
+                ></path>
               </svg>
-              github.com/yerkos/snapstack
+              https://github.com/Yerkos/mi-cv
             </a>
           </div>
 
-          <p>AppleWatch APP to track heartRatez zones while running</p>
+          <p>Personal Curriculum Page</p>
         </div>
 
         <div class="section-project-card-container">
           <div class="section-project-card-container-title">
             <h3>AppleTrack</h3>
-            <a href="" target="_blank" rel="noopener noreferrer">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <a href="https://github.com/Yerkos/appletack" target="_blank" rel="noopener noreferrer">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
                 <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                <path d="M12 6h-6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6m-7 1l9-9m-5 0h5v5"></path>
+                <path
+                  d="M12 6h-6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6m-7 1l9-9m-5 0h5v5"
+                ></path>
               </svg>
               github.com/aitor/snapstack
             </a>
           </div>
 
-          <p>AppleWatch APP to track heartRatez zones while running</p>
+          <p>AppleWatch APP to track heartRate zones while running</p>
 
           <div class="section-project-card-container-tec">
             <div class="section-project-card-container-tec-cards">
